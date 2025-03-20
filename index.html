@@ -202,53 +202,16 @@ https://templatemo.com/tm-562-space-dynamic
 }
 
 @media (max-width: 768px) {
-  .nav {
-    display: none; /* Hide the nav by default */
-    flex-direction: column; /* Stack items vertically */
-    position: absolute; /* Position it absolutely */
-    top: 60px; /* Adjust top position */
-    right: 0; /* Align to the right */
-    background: #fff; /* White background */
-    width: 200px; /* Set width */
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow */
-    z-index: 1000; /* Ensure it appears above other elements */
-  }
-  
-  .nav.active {
-    display: flex; /* Show nav when active */
-  }
-  
-  .menu-trigger {
-    display: block; /* Show menu trigger */
-    cursor: pointer; /* Change cursor to pointer */
-  }
-  
   .dropdown-menu {
-    position: static; /* Reset position */
-    display: none; /* Hide dropdowns by default */
-    box-shadow: none; /* Remove shadow */
-    padding: 20px; /* Remove padding */
-    margin: 0; /* Remove margin */
-    list-style: none; /* Remove bullet points */
-  }
-  
-  .dropdown.active .dropdown-menu {
-    display: block; /* Show dropdown when active */
+    position: static;
+    width: 100%;
+    box-shadow: none;
+    background-color: transparent;
   }
 
   .dropdown-menu li {
-    padding: 10px; /* Add padding for dropdown items */
-    background: #fff; /* Background for dropdown items */
-    border-bottom: 1px solid #e0e0e0; /* Add a border between items */
-  }
-
-  .dropdown-menu li a {
-    color: #333; /* Text color for dropdown links */
-    text-decoration: none; /* Remove underline */
-  }
-
-  .dropdown-menu li a:hover {
-    background: #ffff; /* Change background on hover */
+    text-align: center;
+    padding: 10px 0;
   }
 }
 
